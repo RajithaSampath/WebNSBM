@@ -1,0 +1,328 @@
+body{
+	/*background-color: #1879A6;*/
+	background-image: url("back.jpg");
+	
+}
+
+
+#pageDiv{
+	margin: 0 auto; 
+	width: 80%; 
+}
+
+/*Top Panel Div*/
+
+#topDiv1{
+	float: left; 
+	width: 100%; 
+	height: 50px;
+	background-image: url("hp.jpg");
+    background-repeat: repeat-x;
+}
+
+#topDiv2{
+	float: left; 
+	width: 100%; 
+	height: 100px;
+	background-image: url("log.jpg");
+}
+
+#topDiv2-1{
+	width: 35%;
+	height: 100px;
+	float:left;
+}
+
+#topDiv2-2{
+	float: left;
+	margin-top: 50px;
+	
+	width: 65%;
+	color: black;
+	font-weight: bold;
+}
+
+/*top div List attribute*/
+#topDiv2-2list li {
+	list-style-type: none;
+    display: inline;
+    
+
+}
+
+li a {
+    display: inline-block;
+    color: #000;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+
+}
+/*----------*/
+
+
+/**  Navigation bar**/
+.navbar {
+
+  overflow: hidden;
+  /*background-color: red;*/
+  position:fixed;
+  top: 0;
+  width: 1067px;
+
+}
+
+.main {
+  /*padding: 16px;*/
+  margin-top: 140px;
+  /*height: 1500px; /* Used in this example to enable scrolling */
+}
+/**  Navigation bar end**/
+
+
+
+/*Top Panel Div End*/
+
+#left-rightDive{
+	float: left; 
+	width: 20%; 
+	/*background-color: #ABEBC6;*/
+	height: 750px;
+}
+
+/*Right Panel Div*/
+
+#righttDive1{
+	float: left; 
+	width: 100%; 
+	background-color: white;
+	height: 370px;
+}
+
+#righttDive2{
+	float: left; 
+	width: 100%; 
+	background-color: white;
+	height: 380px;
+}
+
+#rightDiv1Tbl{
+	font: italic bold 10pt Arial;    /*This order must be*/
+	color: #337EA6;
+	width: 100%;
+	text-align:center;
+}
+
+/*Right Panel Div End*/
+
+/*Left Panel Div*/
+
+#leftDive1{
+	float: left; 
+	width: 100%; 
+	background-color: white;
+	height: 380px;
+}
+
+#leftDive2{
+	float: left; 
+	width: 100%; 
+	background-color: #9FBD7F;
+	height: 150px;
+}
+
+#leftDive3{
+	float: left; 
+	width: 100%; 
+	height: 220px;
+	background-image: url("cal.jpg");
+	background-repeat: repeat-x;
+}
+
+#leftDiv1Tbl {
+	font: italic bold 10pt Arial;    /*This order must be*/
+	color: #337EA6;
+	width: 100%;
+	text-align:center;
+	height: 50px;
+}
+
+
+#logForm{
+	margin-left: 10px;
+	font: bold 8pt "Avant Garde";    /*This order must be*/
+	color: #042D59;
+	font-size: 10pt;
+
+}
+
+
+
+
+/*Left Panel Div End*/
+
+
+/*Middle Panel Div*/
+
+#middleDive{
+	float: left; 
+	width: 60%; 
+	/*background-color: #ABEBC6;*/
+	height: 750px;
+
+}
+
+
+#middlePic{
+	float: left; 
+	width: 100%; 
+	background-color: red;
+	height: 300px;
+}
+
+/*News and Event Scoral*/
+.scroll {
+    overflow: scroll;
+    width: 100%;
+    height:370px;
+}
+
+
+#middleDive1{
+	float: left; 
+	width: 100%; 
+	background-color: white;
+	height: 80px;
+}
+
+#middleDive2{
+	float: left; 
+	width: 40%; 
+	height: 220px;
+	background-color: white;
+
+}
+
+#middleDive2-1{
+	float: left; 
+	width: 60%; 
+	background-color: white;
+	height: 220px;
+}
+
+#middleDive3{
+	float: left; 
+	width: 40%; 
+	background-color: white;
+	height: 220px;
+}
+
+#middleDive3-1{
+	float: left; 
+	width: 60%; 
+	background-color: white;
+	height: 220px;
+}
+
+#middleDive4{
+	float: left; 
+	width: 40%; 
+	background-color: white;
+	height: 220px;
+}
+
+#middleDive4-1{
+	float: left; 
+	width: 60%; 
+	background-color: white;
+	height: 220px;
+}
+
+
+
+/*Middle Panel Div End*/
+
+/*Faculty Div*/
+#fac1{
+	width: 100%;
+	height: 420px;
+	background-color: white;
+	float: left; 
+}
+
+#fac2{
+	width: 80%;
+	height: 400px;
+	float: left; 
+}
+
+#fac3{
+	width: 20%;
+	height: 400px;
+	float: left; 
+	background-image: url("cc.jpg");
+	background-repeat: repeat-x;
+
+}
+
+#facTbl {
+	font: italic bold 10pt Arial;    /*This order must be*/
+	color: #337EA6;
+	width: 100%;
+	text-align:center;
+	height: 50px;
+}
+
+/*Faculty Div End*/
+
+/*Botam Panel Div*/
+
+#botamDive{
+	float: left; 
+	width: 100%;  
+	height: 50px;
+	background-image: url("ft.jpg");
+	background-repeat: repeat-x;
+	text-align: right;
+	font-padding-top: 50px;
+	color: white;
+
+}
+
+/*Botam Panel Div End*/
+
+h4,h3{
+	
+	text-align:center;
+	font-family:"Avant Garde";
+	color: #042D59;
+}
+/*
+#fnt1{
+	
+	font: italic bold 10pt Arial;    
+	color: #337EA6;
+	/*text-align:center;
+	text-decoration: underline;
+}*/
+
+#border {
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+#p1{
+	font: 10pt "Less-common serif fonts";
+	text-align: center;
+}
+dd{
+	font: 10pt "Less-common serif fonts";
+	
+}
